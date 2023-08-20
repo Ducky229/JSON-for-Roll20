@@ -7,13 +7,13 @@
 	"item": [
 		{
 			"name": "+1 All-Purpose Tool",
-			"source": "TCE",
-			"page": 119,
-			"rarity": "uncommon",
-			"reqAttune": "by an artificer",
+			"source": "PHB",
+			"page": 0,
+			"rarity": "common",
+			"reqAttune": "none",
 			"reqAttuneTags": [
 				{
-					"class": "artificer|tce"
+					"class": "none"
 				}
 			],
 			"wondrous": true,
@@ -27,6 +27,25 @@
 				"While holding this tool, you gain a +1 bonus to the spell attack rolls and the saving throw DCs of your artificer spells.",
 				"As an action, you can focus on the tool to channel your creative forces. Choose a cantrip that you don't know from any class list. For 8 hours, you can cast that cantrip, and it counts as an artificer cantrip for you. Once this property is used, it can't be used again until the next dawn."
 			]
+		},
+		{
+			"name": "Рюкзак",
+			"source": "PHB",
+			"page": 153,
+			"srd": true,
+			"basicRules": true,
+			"type": "G",
+			"rarity": "none",
+			"weight": 5,
+			"value": 200,
+			"entries": [
+				"Вместимость: 1 кубический фут/30 фунтов (15 кг.) Вы также можете привязывать такие предметы как спальники и верёвки снаружи рюкзака."
+			],
+			"containerCapacity": {
+				"weight": [
+					30
+				]
+			}
 		}
 	]
 }
